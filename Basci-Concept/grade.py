@@ -1,12 +1,13 @@
-a=int(input("Enter a mark:"))
-if a >= 90:
-    print("Grade:A")
-elif a >= 80:
-    print("Grade:B")    
-elif a >= 70:
-    print("Grade:C")
-elif a >= 60:
-    print("Grade:D")
+mark = float(input("Enter a mark:"))
+if mark >= 90:
+    grade = "A"
+elif mark >= 80:
+    grade = "B"
+elif mark  >= 70:
+    grade = "C"
+elif mark  >= 60:
+    grade = "D"
 else:
-    print("Fail")
+    grade = "Fail"
+print("Grade:",grade)
     
